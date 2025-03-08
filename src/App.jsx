@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 
-const API_URL = 'http://localhost:5000';
+const API_URL = 'https://bike-rental-backend-blush.vercel.app/';
 
 function App() {
   const [formData, setFormData] = useState({
